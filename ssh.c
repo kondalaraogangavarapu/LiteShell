@@ -11,7 +11,7 @@
 #include <errno.h>
 #include <fcntl.h>
 
-extern char **environ;
+extern char **environ; 
 
 #define MAX_ARG_LIST	64
 #define DEFAULT_PROMPT 	'$'
